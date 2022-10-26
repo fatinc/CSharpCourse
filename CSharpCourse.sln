@@ -3,21 +3,21 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.3.32929.385
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Arrays", "Arrays\Arrays.csproj", "{427CBB99-5E17-4472-B6E0-8553197DE0EB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Arrays", "Arrays\Arrays.csproj", "{427CBB99-5E17-4472-B6E0-8553197DE0EB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Classes", "Classes\Classes.csproj", "{220C75F1-A38E-4347-82BE-7C34F344B183}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Classes", "Classes\Classes.csproj", "{220C75F1-A38E-4347-82BE-7C34F344B183}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Conditionals", "Conditionals\Conditionals.csproj", "{3ABC12CE-D43D-4345-AC99-4D5C52C6E116}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Conditionals", "Conditionals\Conditionals.csproj", "{3ABC12CE-D43D-4345-AC99-4D5C52C6E116}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Loops", "Loops\Loops.csproj", "{F50B7EAE-5B52-49EE-86CD-B9395A68DC93}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Loops", "Loops\Loops.csproj", "{F50B7EAE-5B52-49EE-86CD-B9395A68DC93}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Methods", "Methods\Methods.csproj", "{52D0068B-0317-4613-B979-ECC8D3AF4DB0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Methods", "Methods\Methods.csproj", "{52D0068B-0317-4613-B979-ECC8D3AF4DB0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RecapDemo1", "RecapDemo1\RecapDemo1.csproj", "{DEF899C8-D2EF-423F-B332-8D178C2E3D11}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Strings", "Strings\Strings.csproj", "{CE2D6437-4907-475E-B7C7-00A11F0BB706}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Strings", "Strings\Strings.csproj", "{CE2D6437-4907-475E-B7C7-00A11F0BB706}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TypesAndVariables", "TypesAndVariables\TypesAndVariables.csproj", "{EF5829B9-7777-4296-9F15-1BFFB2E5C59C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TypesAndVariables", "TypesAndVariables\TypesAndVariables.csproj", "{EF5829B9-7777-4296-9F15-1BFFB2E5C59C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RecapDemo1", "RecapDemo1\RecapDemo1.csproj", "{60AE7E8A-884F-4A5C-86AD-54ED93871830}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,10 +45,6 @@ Global
 		{52D0068B-0317-4613-B979-ECC8D3AF4DB0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{52D0068B-0317-4613-B979-ECC8D3AF4DB0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{52D0068B-0317-4613-B979-ECC8D3AF4DB0}.Release|Any CPU.Build.0 = Release|Any CPU
-		{DEF899C8-D2EF-423F-B332-8D178C2E3D11}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{DEF899C8-D2EF-423F-B332-8D178C2E3D11}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{DEF899C8-D2EF-423F-B332-8D178C2E3D11}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{DEF899C8-D2EF-423F-B332-8D178C2E3D11}.Release|Any CPU.Build.0 = Release|Any CPU
 		{CE2D6437-4907-475E-B7C7-00A11F0BB706}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{CE2D6437-4907-475E-B7C7-00A11F0BB706}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CE2D6437-4907-475E-B7C7-00A11F0BB706}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -57,6 +53,10 @@ Global
 		{EF5829B9-7777-4296-9F15-1BFFB2E5C59C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EF5829B9-7777-4296-9F15-1BFFB2E5C59C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EF5829B9-7777-4296-9F15-1BFFB2E5C59C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{60AE7E8A-884F-4A5C-86AD-54ED93871830}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{60AE7E8A-884F-4A5C-86AD-54ED93871830}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{60AE7E8A-884F-4A5C-86AD-54ED93871830}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{60AE7E8A-884F-4A5C-86AD-54ED93871830}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
