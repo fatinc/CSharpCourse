@@ -1,2 +1,75 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿namespace loops
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            // ForLoop();
+            //WhileLoop();
+            //DoWhileLoop();
+            //ForEachLoop();
+
+            if (IsPrimeNumber(5))
+            {
+                Console.WriteLine("This is prime number");
+            }
+            else
+            {
+                Console.WriteLine("This is not prime number");
+            }
+
+            Console.ReadLine();
+        }
+        private static bool IsPrimeNumber(int number)
+        {
+            bool result = true;
+            for (int i = 2; i < number - 1; i++)
+            {
+                if (number % i == 0)
+                {
+                    result = false;
+                    break;//i = number;
+                }
+            }
+            return result;
+        }
+        private static void ForEachLoop()
+        {
+            string[] students = new string[3] { "ali", "fatma", "ayşe" };
+            foreach (string student in students)
+            {
+                Console.WriteLine(student);
+            }
+        }
+
+        private static void DoWhileLoop()
+        {
+            int number = 10;
+            do
+            {
+                Console.WriteLine(number);
+                number--;
+            } while (number >= 11);
+        }
+
+        private static void WhileLoop()
+        {
+            int number = 100;
+            while (number >= 0)
+            {
+                Console.WriteLine(number);
+                number--;
+            }
+            Console.WriteLine("Now number is {0}", number);
+        }
+
+        private static void ForLoop()
+        {
+            for (int i = 0; i <= 100; i = +2)
+            {
+                Console.WriteLine(i);
+            }
+        }
+    }
+
+}
