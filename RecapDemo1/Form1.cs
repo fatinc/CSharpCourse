@@ -47,6 +47,7 @@ namespace RecapDemo1
                         buttons[i, j].BackColor = Color.White;
                     }
                     this.Controls.Add(buttons[i, j]);
+
                 }
                 top += 50;
                 left = 0;
