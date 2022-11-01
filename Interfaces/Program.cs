@@ -11,12 +11,29 @@ namespace Interfaces
         static void Main(string[] args)
         {
             //IntarfacesIntro();
-            CustomerManager customerManager = new CustomerManager();
-            customerManager.Add(new SqlServerCustomerDal());
-            
+            //Demo();
+
+
+            ICustomerDal[] customerDals = new ICustomerDal[3]
+            {
+                new SqlServerCustomerDal(),
+                new OracleCustomerDal(),
+                new MysqlCustomerDal()
+            };
+
+            foreach (ICustomerDal customerDal in customerDals)
+            {
+                customerDal.Add();
+            } 
 
             Console.ReadLine();
 
+        }
+
+        private static void Demo()
+        {
+            CustomerManager customerManager = new CustomerManager();
+            customerManager.Add(new SqlServerCustomerDal());
         }
 
         private static void IntarfacesIntro()
